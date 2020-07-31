@@ -20,7 +20,7 @@ then
   echo -e "\n\e[0;33mExisting storage account $EXISTING_STORAGE_ACCOUNT found.\e[0m"
   STORAGE_ACCOUNT_NAME=$EXISTING_STORAGE_ACCOUNT
   echo -e "\n\e[0;33mUsing existing storage account...\e[0m"
-  echo -e "\e[1;34mAZURE_STORAGE_ACCOUNT\e[1;37m: \e[0;32m$AZURE_STORAGE_ACCOUNT\e[0m"
+  echo -e "\e[1;34mSTORAGE_ACCOUNT_NAME\e[1;37m: \e[0;32m$STORAGE_ACCOUNT_NAME\e[0m"
 else
   # Generate unique name and create storage account for Terraform remote state
   RANDOM_STRING=$(head /dev/urandom | tr -dc a-z0-9 | head -c 16)
