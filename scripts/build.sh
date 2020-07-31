@@ -3,7 +3,6 @@
 # Input variables
 RESOURCE_GROUP_NAME="citadel-actions-state"
 STORAGE_ACCOUNT_PREFIX="ctdlgha" #note: max 8 charaacters
-STORAGE_ACCOUNT_NAME="lufusselghatest"
 CONTAINER_NAME="tfstate"
 LOCATION="uksouth"
 SERVICE_PRINCIPAL_NAME="http://citadel-actions-sp"
